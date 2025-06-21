@@ -1,4 +1,4 @@
-import { FaPlay, FaPause, FaTrash } from "react-icons/fa";
+import { FaPlay, FaPause, FaTrash, FaInfoCircle } from "react-icons/fa";
 
 type Props = {
   running: boolean;
@@ -46,6 +46,13 @@ export default function ControlsPanel({
           className="w-32 h-2 bg-gray-700 rounded-lg appearance-none cursor-pointer"
         />
       </div>
+      <button
+        onClick={() => window.open("https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life", "_blank")}
+        className="bg-blue-800 hover:bg-blue-700 p-3 rounded-full transition"
+        title="About the Game of Life"
+      >
+        <FaInfoCircle size={20} />
+      </button>
     </div>
   );
 }
