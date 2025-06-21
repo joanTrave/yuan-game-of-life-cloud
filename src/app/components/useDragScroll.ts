@@ -42,7 +42,7 @@ export const useDragScroll = (containerRef: React.RefObject<HTMLDivElement | nul
       window.removeEventListener("mousemove", handleMouseMove);
       window.removeEventListener("mouseup", handleMouseUp);
     };
-  }, []);
+  }, [containerRef]);
 
   return isDragging;
 };

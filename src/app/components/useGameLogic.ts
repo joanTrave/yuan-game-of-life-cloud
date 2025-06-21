@@ -34,7 +34,7 @@ export const useGameLogic = (
         g.map((row, i) =>
           row.map((cell, j) => {
             let neighbors = 0;
-            for (let [x, y] of operations) {
+            for (const [x, y] of operations) {
               const newI = i + x;
               const newJ = j + y;
               if (
@@ -57,7 +57,7 @@ export const useGameLogic = (
     }, speed);
 
     return () => clearInterval(interval);
-  }, [speed, running]);
+  }, [speed, running, numRows, numCols, operations]);
 
   const clearGrid = () => {
     setGrid(
