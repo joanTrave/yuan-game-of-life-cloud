@@ -40,8 +40,8 @@ This project is a full-featured, interactive implementation of **Conway's Game o
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/game-of-life-nextjs.git
-cd game-of-life-nextjs
+git clone https://github.com/your-username/game-of-life-cloud.git
+cd game-of-life-cloud
 
 # 2. Install dependencies
 npm install
