@@ -26,8 +26,7 @@ This project is a full-featured, interactive implementation of **Conway's Game o
 
 > 🔗 Deployed with [Vercel](https://vercel.com)
 
-**➡️ [View Live App](https://your-app.vercel.app)**  
-*(Replace with your actual URL)*
+**➡️ [View Live App](https://yuan-game-of-life-cloud.vercel.app/)**  
 
 ---
 
